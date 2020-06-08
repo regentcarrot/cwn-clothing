@@ -1,0 +1,33 @@
+/*
+    Scroll top button style
+*/
+.scroll_top {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    position: fixed;
+    background-image: $primary-gradient;
+    text-align: center;
+    right: 6%;
+    bottom: 10%;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    z-index: 989;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    span {
+        font-size: 23px;
+        color: $white;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+/*
+    Brand area
+*/
+.brand-area {
+    h2 {
+        line-height: 3rem;
+    }
+
+    span {
+        &:nth-child(1) {
+            color: $primary;
+        }
+
+        &:nth-child(2) {
+            color: $secondary;
+        }
+    }
+    p {
+    font-size: 16px;
+    line-height: 34px;
+    }
+}

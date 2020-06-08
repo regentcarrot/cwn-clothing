@@ -1,0 +1,16 @@
+// Contact
+.contact {
+    @extend .contact;
+
+    .contact_overlay {
+        top: -2px;
+        left: 0px;
+    }
+    input {
+            &::placeholder {
+            color: $placeholder;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+// Img Gallery
+.light_box {
+    .mbr-gallery-title {
+        position: absolute;
+        display: block;
+        width: 100%;
+        bottom: 0;
+        padding: 20px;
+        padding-left: 30px;
+        background-image: $primary-gradient;
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    ul li {
+        margin-bottom: 23px;
+
+        // Card hover
+        .img-overlay {
+
+            &::before,
+            &::after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                transform: scale3d(0, 0, 1);
+                transition: transform .3s ease-out 0s;
+                background-image: $primary-gradient;
+                content: '';
+                pointer-events: none;
+                opacity: 0.4;
+            }
+
+            &::before {
+                transform-origin: left top;
+            }
+
+            &::after {
+                transform-origin: right bottom;
+            }
+
+            &:hover,
+            &:focus {
+
+                &::before,
+                &::after {
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+        }
+    }
+}

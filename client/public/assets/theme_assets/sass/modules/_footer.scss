@@ -1,0 +1,47 @@
+// Footer section
+footer {
+    &.footer-area {
+        p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 34px;
+            font-weight: $display1-weight;
+            color: $body-color;
+
+            a {
+                color: $body-color;
+                font-weight: $display1-weight;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        ul {
+            li {
+                width: 40px;
+                height: 40px;
+                background: rgba(255, 69, 138, 0.18);
+                border-radius: 50px;
+
+                a {
+                    text-align: center;
+                    line-height: 3rem;
+                    font-size: 14px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 30%;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+
+            text-align: right;
+        }
+    }
+}

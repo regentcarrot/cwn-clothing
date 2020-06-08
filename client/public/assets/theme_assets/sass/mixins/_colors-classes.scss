@@ -1,0 +1,13 @@
+// generates theming classes based on theme color from $theme-colors map in bootstrap
+@each  $key, $color in ($theme-colors) {
+  .color-#{$key}{
+    color: #{$color};
+  }
+  .bg-#{$key} {
+    background: #{$color};
+  }
+  .outline-#{$key}{
+    border: 1px solid #{$color};
+    color: #{$color}
+  }
+}

@@ -1,0 +1,367 @@
+// Large devices (desktops, less than 1200px lg)
+@media (max-width: 1199.98px) {
+
+  .banner-area .banner-overlay img:nth-child(1) {
+    height: 140px;
+  }
+
+}
+
+// Medium devices (tablets, less than 992px md)
+@media (max-width: 991.98px) {
+  .blockquote p {
+    font-size: 19px;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 0.9375rem;
+  }
+
+  .card-body a h5 {
+    font-size: 1rem;
+  }
+
+  .portfolio .card {
+    text-align: center;
+  }
+
+  .brand-area h2 {
+    line-height: 2rem;
+  }
+
+  .brand .card-body {
+    padding-top: 40px;
+  }
+
+  .testimonial p {
+    font-size: 0.875rem;
+  }
+
+  /*header-area*/
+  .header-menu li a,
+  .mmn.navbar-dark .navbar-nav a.nav-link {
+    padding: 18px 12px;
+  }
+
+  .banner-area .banner-overlay img:nth-child(1) {
+    height: 130px;
+  }
+
+  .extra_input_m {
+    margin-bottom: 30px;
+  }
+
+  .light_box .mbr-gallery-title {
+    padding: 14px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  ul.zoom-gallery {
+    margin-top: 30px;
+  }
+
+  .card-body {
+    padding: 30px 15px;
+  }
+  .brand-area .card {
+    margin-top: 40px;
+  }
+  .partner-logos{
+    margin-left: 15px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px sm)
+@media (max-width: 767.98px) {
+  .post-bottom .social-share {
+    display: unset;
+    align-items: unset;
+  }
+
+  .banner-area .header-content {
+    margin: auto;
+    text-align: center;
+  }
+
+  .banner-area {
+    .header-content h3 {
+      line-height: 75px;
+    }
+  }
+
+  .about-area .card,
+  .services .card {
+    margin-bottom: 30px;
+  }
+
+  /*header area*/
+  .header-menu.navbar-nav li .sub-menu li {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+
+      a {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+
+  .header-menu li a,
+  .mmn.navbar-dark .navbar-nav a.nav-link {
+    padding: 2px 0;
+    border-bottom: 1px solid $border_top;
+  }
+
+  .main-wrap {
+    position: relative;
+  }
+
+  header.header-area {
+    background: rgba(0, 0, 0, 8);
+    z-index: 99;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 7px 7px;
+    margin: 6px 0;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none;
+  }
+
+  .mmn.navbar,
+  .is-sticky .mmn.navbar {
+    padding: 5px 0;
+  }
+
+  ul.header-menu {
+    padding: 10px 0;
+  }
+
+  ul.sub-menu {
+    position: static;
+    border-top: 0;
+  }
+
+  .mmn.navbar-dark .navbar-nav ul.sub-menu li a.nav-link {
+    border-bottom: 1px solid $border_top;
+  }
+
+  .header-menu li a i.fa-angle-down {
+    float: right;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .scroll_top {
+    right: 10%;
+  }
+
+  .team .card {
+    padding: 0;
+  }
+
+  .customers-testimonials .owl-carousel a {
+    margin: 0 auto;
+  }
+
+  .testimonial p {
+    font-size: 0.875rem;
+  }
+
+  .contact .contact_overlay {
+    top: -7px;
+  }
+
+  .owl-caresoul2 ul {
+    margin: 0;
+    padding: 0 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  footer.footer-area {
+    ul {
+      text-align: center;
+    }
+
+    .social_logo {
+      text-align: center;
+    }
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .testimonial p {
+    padding: 0 20px;
+  }
+
+  .p-top-150 {
+    padding-top: 100px;
+  }
+
+  .p-bottom-120 {
+    padding-bottom: 70px;
+  }
+
+  .m-bottom-120 {
+    margin-bottom: 70px;
+  }
+
+  .p-top-120 {
+    padding-top: 70px;
+  }
+
+  .p-bottom-100 {
+    padding-bottom: 70px;
+  }
+
+  .p-bottom-90 {
+    padding-bottom: 50px;
+  }
+
+  .p-bottom-40 {
+    padding-bottom: 20px;
+  }
+
+  .p-top-40 {
+    padding-top: 20px;
+  }
+
+  .p-bottom-50 {
+    padding-bottom: 30px;
+  }
+
+  .m-bottom-40 {
+    margin-bottom: 20px;
+  }
+
+  .m-top-40 {
+    margin-top: 20px;
+  }
+
+  .p-bottom-60 {
+    padding-bottom: 30px;
+  }
+  .team .card-body a h5 {
+    margin-bottom: 3px;
+  }
+
+  .partner-logos{
+    display: block;
+    margin-right: 15px;
+    ul{
+      flex: none;
+      display: block;
+      margin: 0 !important;
+      li{
+        text-align: center;
+        img{
+          display: inline-block !important;
+        }
+      }
+    }
+  }
+  footer.footer-area p.copyright{
+    margin: 0 0 10px 0 !important;
+  }
+
+}
+
+// Extra small devices (portrait phones, less than 576px xs)
+@media (max-width: 575.98px) {
+  .post-bottom .social-share {
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-area {
+    .banner-overlay img:nth-child(1) {
+      height: 90px;
+      width: 220px;
+    }
+  }
+
+  .scroll_top {
+    right: 10%;
+  }
+
+  .contact .contact_overlay {
+    top: -7px;
+  }
+  .banner-area .header-content h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .banner-area .header-content h3 {
+    line-height: 45px;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .portfolio .card-body{
+    padding-top: 0;
+  }
+  .owl-caresoul2{
+    display: flex !important;
+    align-items: flex-start;
+    .owl-dots{
+      right: 20px;
+      position: sticky;
+      position: -webkit-sticky;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .popup_icon {
+    top: 45%;
+    text-align: center;
+    left: 45%;
+
+    a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      box-shadow: 0 0 0 5px rgba(222, 226, 230, 0.22);
+
+      span {
+        line-height: 0;
+        font-size: 9px;
+      }
+    }
+  }
+
+  .brand-area p {
+    font-size: 14px;
+    line-height: 34px;
+  }
+  .contact .contact_overlay{
+    top: -12px;
+  }
+  .scroll_top{
+    right: 15%;
+    bottom: 5%;
+  }
+  .post-bottom .tags ul li{
+    margin-bottom: 10px;
+  }
+}

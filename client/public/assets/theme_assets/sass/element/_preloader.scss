@@ -1,0 +1,22 @@
+/*
+    Preloader style
+*/
+.pre-loader {
+    background-color: $white;
+    position: fixed;
+    @extend .w_h_full;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    .spinner {
+        width: 100px;
+        height: 100px;
+        top: 40%;
+        bottom: 40%;
+        position: absolute;
+        background-image: $primary-gradient;
+        margin: 100px auto;
+        animation: sk-rotateplane 1.2s infinite ease-in-out;
+    }
+}

@@ -1,0 +1,252 @@
+// this file contains the configuration
+// for customizing bootstrap,
+// and other theme components
+
+@import "scss/functions";
+@import "scss/mixins";
+@import "scss/variables";
+
+
+// theme color
+$light-gray: #7a82a6; // primary_color_p
+$primary: #ff458a; // color_gredient_1
+$secondary: #fa8b0c; // color_gredient_2 //button background color
+$success: #32cc6f;
+$info: #3a7dfd;
+$warning: #fa8b0c;
+$danger: #fd4868;
+$dark: #272b41; // h5 color
+$light: #f5f7fc;
+$body-color: #7a82a6;
+
+
+$theme-colors: ();
+
+//jumbotron
+$jumbotron-padding: 1rem;
+
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$navbar-dark-active-color: $primary;
+
+// stylelint-disable
+$gray-100: #c9cfe4;
+$text-light: #9299b8;
+$text-grey1: #fefeff;
+$text-grey2: #7a82a6;
+$footer-dark: #353b58;
+
+// other colors, these are the colors
+// that has been used in different part of ui exceptionally
+
+$other-colors: ("footer-dark": $footer-dark);
+
+// border color
+$border-light: #f4f2f8;
+$border-color: #e3e6ef;
+$bg-color: #f9f8fb;
+
+//social colors
+$facebook: #3b5998;
+$twitter: #55acee;
+$pinterest: #bd081c;
+$gplus: #dc4e41;
+$linkedin: #0077b5;
+$tumblr: #35465c;
+$vk: #4A76A8;
+
+$social-colors: ();
+
+// stylelint disabled
+$social-colors: map-merge(("facebook": $facebook,
+    "twitter": $twitter,
+    "pinterest": $pinterest,
+    "gplus": $gplus,
+    "linkedin": $linkedin,
+    "tumblr": $tumblr,
+    "vk": $vk),
+  $social-colors);
+
+// box shadow color
+$bg-shadow-color:rgba(222, 226, 230, 0.22);
+//custom color
+$placeholder: #b5bcd7;
+// hr color
+$hr_color: $border-light;
+$border_top: #aaaaaa4d;
+
+//custom button color
+$btn-color:$white;
+/* color_gradient */
+
+$primary-gradient: linear-gradient(to right, $primary, $secondary);
+$hover-btn-grdient: linear-gradient(to right, $secondary, $primary);
+
+
+// global setting override
+$enable-caret: false;
+$enable-shadows: true;
+
+// shadows
+$box-shadow-color: #9299b8;
+$box-shadow: 0 0.67rem 0.67rem rgba($box-shadow-color, .08);
+$box-shadow-lg: 0 0 35px rgba(112, 112, 112, 0.1);
+
+// font
+$font-size-base: 1rem;
+$font-family-base: 'Poppins',
+sans-serif; //'Work Sans', sans-serif;
+
+
+// display text
+$display1-size: 1.875rem; // 48px
+$display2-size: 1.5rem; // 40px
+$display3-size: 1.33rem; // 34px
+$display4-size: 1.125rem; // 30px
+$display1-weight: 400;
+$display2-weight: 500;
+$display3-weight: 500;
+$display4-weight: 500;
+
+
+// btn
+$btn-font-weight: 500;
+$btn-font-size: 0.875rem; //use
+$btn-font-size-lg: 14px;
+
+$btn-padding-x: 1.33rem;
+$btn-padding-x-sm: 45px;
+$btn-padding-x-lg: 35px;
+$btn-padding-y: 0;
+$btn-padding-y-sm: 12px;
+$btn-padding-y-lg: 12px;
+
+$btn-line-height: 2.875rem;
+$btn-line-height-lg: 27px;
+$btn-line-height-md: 3.125rem;
+$btn-line-height-sm: 27px;
+$btn-line-height-xs: 2.125rem;
+$btn-padding-y: 12px;
+$btn-padding-x: 30px;
+$btn-box-shadow: none;
+
+// leading text
+$lead-font-size: ($font-size-base * 1.33);
+$lead-font-weight: 400;
+$lead-medium-font-size: ($font-size-base * 1.6);
+$lead-medium-font-weight: 500;
+
+// link
+$link-color: $primary;
+$link-hover-decoration: none;
+
+// navbar
+$navbar-padding-y: 1.3rem;
+
+//light
+$navbar-light-color: #202428;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+// dark
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $primary;
+
+// section bg
+$section-bg: #f5f7fc;
+$section-bg2: #f1f3f8;
+
+//breadcrumb
+$breadcrumb-area-bg: $section-bg;
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-item-padding: 0.5rem;
+$breadcrumb-margin-bottom: 0;
+$breadcrumb-bg: none;
+$breadcrumb-divider-color: $light;
+$breadcrumb-active-color: $gray-100;
+$breadcrumb-divider: quote("/");
+
+// Cards
+$card-border-color: $border-color;
+$card-cap-bg: $white;
+$card-spacer-x: 30px 30px 30px 30px;
+
+//Pagination
+$pagination-padding-y: .8rem;
+$pagination-padding-x: 1rem;
+
+
+//Headings Font Sizes
+$h1-font-size: 2rem; //30px
+$h2-font-size: 2.25rem; //24px
+$h3-font-size: 1.33rem; //20px
+$h4-font-size: 1.2rem; //18px
+$h5-font-size: 1.125rem; //16px
+$h6-font-size: 1rem; //15px
+$headings-margin-bottom: 0;
+$headings-color: $dark;
+$headings-font-weight :500;
+$headings-line-height :2.125rem; //line-height
+$line-height :1.6875rem;
+
+$headings-font-family: 'Poppins',
+sans-serif;
+
+$headings-font-family: "Poppins",
+sans-serif;
+
+// alerts
+$alert-bg-level: -10;
+$alert-border-level: -9;
+$alert-color-level: 0;
+$alert-padding-y: 1.6rem;
+$alert-padding-x: 2rem;
+$alert-margin-bottom: 1.33rem;
+
+//progress bars
+$progress-height: 0.54rem;
+$border-radius: 0.1875rem;
+$btn-border-radius: $border-radius;
+$input-bg: $bg-color;
+$input-focus-border-color: $primary;
+$input-focus-box-shadow: none;
+
+//form elements
+$input-height: 3.2rem;
+$input-height-lg: 3.47rem;
+$input-height-sm: 2.8rem;
+$input-padding-x: 1.2rem;
+$form-text-margin-top: .66rem;
+$input-border-radius: $border-radius-sm;
+$input-border-color: $border-color;
+
+// tabs
+$nav-tabs-border-radius: 0;
+$nav-tabs-link-active-color: $secondary;
+$nav-tabs-link-active-bg: $light;
+
+$nav-pills-border-radius: 13.33rem;
+$nav-pills-link-active-color: $component-active-color;
+$nav-pills-link-active-bg: $primary;
+
+//transition
+$transition-base: all .3s ease;
+
+//hr
+$hr-margin-y: 4.67rem;
+$hr-border-color: $border-light;
+
+//badges
+$badge-padding-y: 0.5rem;
+$badge-padding-x: 0.5rem;
+$badge-font-size: 0.8rem;
+$badge-font-weight: 600;
+$badge-border-radius: 0.133rem;
+$badge-pill-padding-x: 0.86rem;
+$line-height-base: 2.125;
+
+//modal
+$modal-md: 420px;
+
+
+@import "scss/variables";

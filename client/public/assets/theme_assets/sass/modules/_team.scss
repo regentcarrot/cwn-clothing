@@ -1,0 +1,9 @@
+// Team Card
+.team {
+  @extend .bg_image_two;
+  .card {
+    img {
+      border: 20px solid $white;
+    }
+  }
+}

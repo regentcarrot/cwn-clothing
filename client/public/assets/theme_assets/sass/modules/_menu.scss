@@ -1,0 +1,124 @@
+// Header area
+header.header-area {
+    background: rgba(0, 0, 0, 0);
+    transition: 0.4s;
+    position: absolute;
+    width: 100%;
+
+    &.is-sticky {
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+    }
+}
+
+.mmn.navbar {
+    align-items: center;
+    z-index: 9;
+    padding: 5px 0 0;
+    transition: 0.4s;
+}
+
+.is-sticky .mmn.navbar {
+    padding: 0 0;
+
+    .collapse ul li a {
+        color: rgba(#fff, 0.7);
+        &.active, &:hover{
+            color: #fff;
+        }
+    }
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+ul.header-menu.navbar-nav {
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.header-menu li a,
+.mmn.navbar-dark .navbar-nav a {
+    padding: 20px 0px;
+    padding-left: 29px;
+    line-height: 42px;
+    transition: 0.4s;
+}
+
+.header-menu li {
+
+    &.active a,
+    &.current-menu-item a,
+    &:hover a,
+    &:focus a {
+        color: $primary;
+    }
+}
+
+.header-menu li a i.fa-angle-down {
+    float: right;
+    margin: 15px 5px 0 8px;
+}
+
+.mmn.navbar-dark .navbar-nav {
+    li {
+        &:hover a.nav-link,
+        &:focus a.nav-link {
+            color: #fff;
+        }
+    }
+
+    .nav-link {
+        color: rgba(#fff, 0.7);
+        &.active,
+        &.show {
+            color: #fff;
+        }
+    }
+
+    .show>.nav-link {
+        color: #fff;
+    }
+}
+
+/*submenu*/
+li.menu-item-has-children {
+    position: relative;
+}
+
+ul.sub-menu {
+    position: absolute;
+    list-style: none;
+    padding: 15px;
+    min-width: 165px;
+    background: #fff;
+    top: 90%;
+    border-top: 1px solid $border-color;
+    display: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+
+.mmn.navbar-dark .navbar-nav ul.sub-menu li a.nav-link {
+    text-transform: capitalize;
+    white-space: nowrap;
+    padding: 0 0 10px;
+    transition: $transition-base;
+    color: $body-color;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.mmn.navbar-dark .navbar-nav ul.sub-menu li:last-child a.nav-link{
+    padding-bottom: 0;
+}
+
+.mmn.navbar-dark .navbar-nav ul.sub-menu li a.nav-link:hover {
+    color: $dark;
+}

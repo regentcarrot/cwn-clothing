@@ -7,10 +7,10 @@
 
 /client/node_modules
 /client/build
-/client/images
-/client/public/assets
-/client/public/images/
-/client/src/components
+# /client/images
+# /client/public/assets
+# /client/public/images/
+# /client/src/components
 /client/src/playground
 
 # testing
